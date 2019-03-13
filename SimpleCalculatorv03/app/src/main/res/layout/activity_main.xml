@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_top_num_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="46dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_num0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_0_blue_1553042" />
+
+        <ImageButton
+            android:id="@+id/ib_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_1_blue_1553030" />
+
+        <ImageButton
+            android:id="@+id/ib_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_2_blue_1553043" />
+
+        <ImageButton
+            android:id="@+id/ib_num3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_3_blue_1553079" />
+
+        <ImageButton
+            android:id="@+id/ib_num4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_4_blue_1553097" />
+
+        <ImageButton
+            android:id="@+id/ib_num5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_5_blue_1553045" />
+
+        <ImageButton
+            android:id="@+id/ib_num6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_6_blue_1553053" />
+
+        <ImageButton
+            android:id="@+id/ib_num7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_7_blue_1553034" />
+
+        <ImageButton
+            android:id="@+id/ib_num8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_8_blue_1553070" />
+
+        <ImageButton
+            android:id="@+id/ib_num9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_9_blue_1553064" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/plus_sign_black_64x64" />
+
+        <ImageButton
+            android:id="@+id/ib_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/minus_sign_black_64x64" />
+
+        <ImageButton
+            android:id="@+id/ib_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/black_multiplecation_symbol" />
+
+        <ImageButton
+            android:id="@+id/ib_divison"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/division_sign_64x64" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_mid_num_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="46dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_Anum0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_0_blue_1553042" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_1_blue_1553030" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_2_blue_1553043" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_3_blue_1553079" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_4_blue_1553097" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_5_blue_1553045" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_6_blue_1553053" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_7_blue_1553034" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_8_blue_1553070" />
+
+        <ImageButton
+            android:id="@+id/ib_Anum9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iconfinder_number_9_blue_1553064" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_equal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/equal_sign_black_64x64" />
+
+    <TextView
+        android:id="@+id/tv_answer_num_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="46dp" />
+
+</LinearLayout>
